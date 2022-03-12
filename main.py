@@ -4,7 +4,7 @@ print ("recording has started")
 print ("thank you for choosing us")
 import datetime
 
-from PIL import ImageGrab
+from Pillow import ImageGrab
 import numpy as np
 import cv2
 from win32api import GetSystemMetrics
